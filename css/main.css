@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+}
+
+#main-doc {
+  flex: 1;
+  overflow: auto;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #FBFBFB;
+  border-right: 2px solid #989898;
+}
+
+#navbar header {
+  padding-left: 20px;
+}
+
+#navbar ul,
+#navbar li {
+  list-style: none;
+  padding: 0;
+}
+
+#navbar li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  border-top: 1px solid #989898;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+div {
+  display: flex;
+}
+
+.main-section {
+  margin: 20px 20px;
+}
+
+.main-section header {
+  font-size: 20px;
+}
+
+.main-section li {
+  padding-bottom: 15px;
+}
+
+article {
+  padding-left: 20px;
+}
+
+p {
+  text-indent: 30px;
+}
+
+#References p {
+  text-indent: 0;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (max-width: 768px) {
+  #navbar header {
+    font-size: 18px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
